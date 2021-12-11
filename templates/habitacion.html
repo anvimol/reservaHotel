@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Habitaciones {% endblock %}
+
+{% block content %}
+    {% for hab in habitacion %}
+        <p>Hola va bien</p>
+        <p>{{ hab.numero }}</p>
+    {% endfor %}
+{% endblock %}
